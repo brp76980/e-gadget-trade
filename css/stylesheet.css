@@ -1,0 +1,260 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Dejavu Sans, Arial, Verdana, sans-serif;
+    font-size: 1em;
+    background-color: whitesmoke;
+}
+
+.alert {
+    padding: 32px;
+    background-color: lightblue;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.top-head, .home-top-head{
+    color: white;
+    background-color: Crimson;
+    text-align: center;
+    display: block;
+    padding: 2px 0;
+}
+
+.home-top-head-table {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-top-head {
+    color: white;
+    min-height: 100px;
+    background-color: Crimson;
+}
+
+.home-top-head table{
+    color: white;
+}
+
+.bottom-foot {
+    position: relative;
+    color: white !important;
+    background-color: Crimson;
+    text-align: center;
+    min-height: 250px;
+    padding: 0;
+}
+
+.footer-bar {
+    width: 100%;
+    position: absolute;
+    bottom: -16px;
+    color: white;
+    min-height: 64px;
+    line-height: 64px;
+    background-color: FireBrick;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(80,114,125,.4);
+}
+
+.bottom-foot table{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    color: white;
+    min-height: 64px;
+    line-height: 64px;
+    background-color: FireBrick;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(80,114,125,.4);
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    min-width: 64px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: -5px;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: Crimson;
+    color: white;
+    border-bottom: 8px solid aqua;
+}
+
+nav img {
+    vertical-align: middle;
+}
+
+nav b {
+    line-height: 32px;
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    border-radius: 32px;
+    min-width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.active {
+    background-color: maroon;
+    color: white;
+    cursor: default;
+    border-bottom: 8px solid aqua;
+}
+
+.main {
+    position: relative;
+    min-height: 400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 1px 1px 4px rgba(80,114,125,.4);
+    border-radius: 4px;
+}
+
+td {
+    vertical-align: top;
+    padding: 8px;
+}
+td h2{
+    margin: 0 !important;
+    margin-bottom: -8px !important;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+label {
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+select {
+    height: 32px;
+    background-color: lightblue;
+    outline: none;
+    border-radius: 4px;
+    border: solid 2px white;
+}
+
+input, select, textarea {
+    width: 100%;
+    height: 32px;
+    background-color: lightblue;
+    outline: none;
+    border-radius: 4px;
+    border: solid 2px white;
+}
+
+textarea {
+    min-height: 96px;
+}
+
+label input {
+    vertical-align: middle;
+    width: initial !important;
+}
+
+
+button {
+    background-color: FireBrick;
+    color: white;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+}
+
+button a {
+    color: white;
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: inherit;
+    text-transform: uppercase !important;
+}
+
+.image {
+    max-width: 256px;
+}
+
+.image-small {
+    max-width: 128px;
+}
+
+.image-logo {
+    max-width: 128px;
+}
+
+table {
+    width: 100%;
+}
+
+.item-table tr, .item-table td  {
+    margin: 0;
+    padding: 0;
+}
+.item-table-2nd-column {
+    padding-left: 16px !important;
+}
+
+.checked-list {
+    list-style-image: url('../images/checked.png');
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+    td {
+        display:inline-block;
+        padding:5px;
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .main {
+        width: 95%;
+    }
+    td {
+        display:inline-block;
+        padding:5px;
+        width:100%;
+    }
+}
+
